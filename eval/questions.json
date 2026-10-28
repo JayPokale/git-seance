@@ -1,0 +1,68 @@
+[
+ {
+  "question": "Why did request go into maintenance mode and stop accepting new features?",
+  "threads": [
+   3142
+  ]
+ },
+ {
+  "question": "Is request still actively maintained, and do the maintainers need help?",
+  "threads": [
+   2978,
+   3142
+  ]
+ },
+ {
+  "question": "Why doesn't request return promises, and what should people use for promises?",
+  "threads": [
+   1579,
+   796,
+   1359
+  ]
+ },
+ {
+  "question": "Will request support HTTP/2?",
+  "threads": [
+   2033,
+   2311
+  ]
+ },
+ {
+  "question": "Why did request drop support for Node 0.8?",
+  "threads": [
+   1427,
+   1428
+  ]
+ },
+ {
+  "question": "Why was the tough-cookie dependency upgraded, what was the vulnerability?",
+  "threads": [
+   2376
+  ]
+ },
+ {
+  "question": "Does request ship TypeScript type definitions?",
+  "threads": [
+   2059
+  ]
+ },
+ {
+  "question": "Can request be bundled for the browser with browserify?",
+  "threads": [
+   455,
+   944
+  ]
+ },
+ {
+  "question": "How should a POST request be redirected on a 302 or 303 response?",
+  "threads": [
+   29
+  ]
+ },
+ {
+  "question": "How did request get automatic gzip decompression of responses?",
+  "threads": [
+   951
+  ]
+ }
+]

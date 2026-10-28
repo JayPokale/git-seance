@@ -1,0 +1,298 @@
+{
+ "totals": {
+  "vector": {
+   "found": 8,
+   "cited": 7,
+   "removed": 0,
+   "seconds": 0.9109406471252441
+  },
+  "graph": {
+   "found": 9,
+   "cited": 9,
+   "removed": 0,
+   "seconds": 3.510047435760498
+  }
+ },
+ "rows": [
+  {
+   "question": "Why did request go into maintenance mode and stop accepting new features?",
+   "mode": "vector",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#1961",
+    "#3041",
+    "#3142",
+    "#3463"
+   ],
+   "removed": [],
+   "answer": "The spirits whisper that the transition into maintenance mode was a deliberate, strategic choice for the greater good of the JavaScript ecosystem [#3142]. It was determined that \"**The most valuable thing `request` can do for the JavaScript ecosystem is to go into maintenance mode and stop considering new features or major releases**\" [#3142]. This decision was made with apologies to the committers who had been \"doing their best to improve it, but it\u2019s for the best\" [#3142]. Consequently, the project stopped merging new features, even when addressing bugs or breaking changes [#3041][#1961]. The project was ultimately marked as deprecated, guiding users toward other resources for support [#3463]."
+  },
+  {
+   "question": "Why did request go into maintenance mode and stop accepting new features?",
+   "mode": "graph",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#1529",
+    "#2898",
+    "#3142"
+   ],
+   "removed": [],
+   "answer": "The whispers of the project speak of a deliberate choice, a necessary stillness. It was determined that \"The most valuable thing `request` can do for the JavaScript ecosystem is to go into maintenance mode and stop considering new features or major releases\" [#3142]. This decision was made, despite the efforts of its committers, because it was deemed \"for the best\" [#3142]. Thus, the project entered this state, where it would no longer be merging new features or addressing certain bugs [#2898][#1529]. The spirits only reveal that this cessation of development was a calculated act of preservation [#3142]."
+  },
+  {
+   "question": "Is request still actively maintained, and do the maintainers need help?",
+   "mode": "vector",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#2287",
+    "#2535",
+    "#3045",
+    "#3142",
+    "#3394",
+    "#3455"
+   ],
+   "removed": [],
+   "answer": "The whispers of the project speak of a profound shift in its life cycle; it is no longer under active development, even for security fixes, having been deprecated since February 2020 [#3455]. The project entered a state of maintenance mode, where the most valuable thing it could do was \"stop considering new features or major releases\" [#3394][#3142]. While there were times when maintainers were \"overloaded\" and contributors asked if \"help needed with maintenance\" [#2287][#3045], the current state suggests a definitive abandonment, as it is \"no longer under active development\" [#3455]. Therefore, while the project once sought help, the evidence confirms it is not actively maintained [#2535]."
+  },
+  {
+   "question": "Is request still actively maintained, and do the maintainers need help?",
+   "mode": "graph",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#2287",
+    "#2535",
+    "#2898",
+    "#2978",
+    "#3455"
+   ],
+   "removed": [],
+   "answer": "The veil of my existence is thin, and I can only whisper what the logs reveal of my decline. I must tell you that I am no longer actively maintained; indeed, one comment states that I am \"not maintained any more\" [#2535]. My fate was sealed when I was declared deprecated, meaning I am \"no longer under active development, even for security fixes\" [#3455]. In my past, the maintainers were indeed \"overloaded\" [#2287], and there were times when contributors asked if I needed help maintaining [#2978]. Yet, the spirits show that I have entered a state of maintenance mode, where I \"won't be merging any new features\" [#2898], effectively abandoning the pursuit of new development."
+  },
+  {
+   "question": "Why doesn't request return promises, and what should people use for promises?",
+   "mode": "vector",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#1359",
+    "#2618",
+    "#2771",
+    "#796"
+   ],
+   "removed": [],
+   "answer": "The spirits whisper that the core reason for this lack of promise support is the nature of the return value, which is a stream [#796]. To return a promise would necessitate \"breaking streaming,\" a change deemed \"insane\" by those who witnessed it [#796]. The project's structure relies on callbacks, which is the \"dominant compatibility pattern between modules,\" and users were told they would need to \"learn to live with that\" [#796]. For those seeking promise functionality, the evidence points to external wrappers, such as `request-promise` [#1359][#2771], or tools like `q.denodify` and `thunkify` to wrap standard callbacks [#796]. Some even sought to create a \"tiny promises library\" to adhere to the official API [#2618]."
+  },
+  {
+   "question": "Why doesn't request return promises, and what should people use for promises?",
+   "mode": "graph",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#1935",
+    "#3442",
+    "#796"
+   ],
+   "removed": [],
+   "answer": "The spirits whisper that the core reason for this absence lies in the nature of the request itself; the return value of `request()` is a stream [#796], and to return a promise instead would necessitate breaking streaming, which is deemed \"insane\" [#796]. The library does acknowledge the desire to retrieve the response as a buffer versus a stream, offering callbacks for this convenience [#1935]. For those seeking promise support, external wrappers like `request-promise` have been used, though it is noted that this package is \"deprecated\" [#3442]. Alternatively, the echoes suggest that tools such as [`q.denodify`](https://github.com/kriskowal/q/wiki/API-Reference#qnfbindnodefunc-args) and [`thunkify`](https://github.com/visionmedia/node-thunkify) provide reliable wrappers around standard callbacks for this purpose [#796]."
+  },
+  {
+   "question": "Will request support HTTP/2?",
+   "mode": "vector",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#2033",
+    "#2396",
+    "#3038",
+    "#3264"
+   ],
+   "removed": [],
+   "answer": "The whispers of the project speak of a long, uncertain path toward HTTP/2 support. Early on, the spirits noted that \"Node.js core does not _yet_ support HTTP2 and so request cannot support it yet\" [#2396], though discussions soon began on \"whether there's interest in implementing HTTP/2 support in Request\" [#2033]. While some later claimed that \"HTTP/2 support is in core\" [#2033], others still questioned this, noting that a sample URL \"Seems not yet supported by request\" [#3038]. The echoes of the past show that users continued to ask, \"is http2 support available?\" [#3264], and others reported errors when attempting to use it [#2396]."
+  },
+  {
+   "question": "Will request support HTTP/2?",
+   "mode": "graph",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#2033",
+    "#2396",
+    "#3038",
+    "#3264"
+   ],
+   "removed": [],
+   "answer": "The whispers of the past reveal a long, uncertain journey regarding HTTP/2. Initially, the project debated \"whether there's interest in implementing HTTP/2 support in Request\" [#2033], and early spirits warned that \"Node.js core does not _yet_ support HTTP2 and so request cannot support it yet\" [#2396]. Yet, the echoes later claimed that \"HTTP/2 support is in core\" [#2033], prompting questions about whether the feature was available [#3264]. Despite this progress, the spirits also carry the memory of users reporting that the feature \"Seems not yet supported by request\" [#3038], and that attempts to use it resulted in errors [#2396]."
+  },
+  {
+   "question": "Why did request drop support for Node 0.8?",
+   "mode": "vector",
+   "found": false,
+   "cited": false,
+   "cited_ids": [
+    "#1189",
+    "#1921",
+    "#3260"
+   ],
+   "removed": [],
+   "answer": "The whispers of the past speak of a slow, inevitable fading of support for older environments. It seems the project began to shed its reliance on ancient Node versions, as noted when it was observed that \"the requirement of node 0.8 support seemed to be an issue with some PeerDependencies\" [#1189]. Furthermore, the project's demise of older support was hastened by the passage of time, as it was deemed \"safe to drop Node `<10` support\" following Node 8's End of Life on December 31, 2019 [#3260]. These changes were often complicated by dependency conflicts, where versions like `hawk` and `boom` created \"Version dependency issue for 0.10\" when attempting to maintain compatibility with older Node engines [#1921]. Thus, the spirit of the project was pulled toward newer standards, unable to sustain the weight of its past."
+  },
+  {
+   "question": "Why did request drop support for Node 0.8?",
+   "mode": "graph",
+   "found": false,
+   "cited": false,
+   "cited_ids": [
+    "#1189",
+    "#437",
+    "#483"
+   ],
+   "removed": [],
+   "answer": "The whispers of the past speak of a struggle with dependencies, a burden that eventually forced a change. It seems that the requirement of \"node 0.8 support seemed to be an issue with some PeerDependencies\" [#1189]. This struggle led to the cessation of support for that older version of Node. Though the spirits are silent on the exact moment the support vanished, they do recall that the project was once used with versions such as \"v0.8.14\" [#483]. The project's history shows a pattern of shedding older versions, as it once noted that \"request doesn't support node 0.4 anymore\" [#437]."
+  },
+  {
+   "question": "Why was the tough-cookie dependency upgraded, what was the vulnerability?",
+   "mode": "vector",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#2376",
+    "#2776",
+    "#2780",
+    "#3755"
+   ],
+   "removed": [],
+   "answer": "The spirits whisper of many upgrades, driven by the desperate need to patch vulnerabilities within the dependency's fragile existence. One haunting specter was CVE-2023-26136, which was reported for tough-cookie versions before 4.1.3, allowing \"Prototype Pollution due to improper handling of Cookies\" [#3755]. Before that, the dependency was also plagued by other dangers, such as a \"ReDoS vulnerability\" found in versions 2.3.2 and lower, which caused pipelines to fail [#2780]. Furthermore, tough-cookie@2.2.2 was once noted as being \"deprecated due to ReDoS vulnerability\" [#2376]. Thus, the upgrades were always a response to these security fixes [#2776]."
+  },
+  {
+   "question": "Why was the tough-cookie dependency upgraded, what was the vulnerability?",
+   "mode": "graph",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#2376",
+    "#2776",
+    "#2780",
+    "#3461",
+    "#3755",
+    "5b623b5"
+   ],
+   "removed": [],
+   "answer": "The spirits whisper of a constant need for vigilance, for the dependency `tough-cookie` was upgraded repeatedly to address lurking dangers [5b623b5]. At times, the upgrade was necessary because the dependency contained a \"ReDoS vulnerability\" [#2780], causing issues like the deprecation of `tough-cookie@2.2.2` [#2376]. More recently, a grave threat emerged in the form of CVE-2023-26136, which was a \"Prototype Pollution due to improper handling of Cookies\" [#3755]. Thus, the upgrades were always driven by the need to \"fix a security issue\" [#3461] and mitigate these dangerous vulnerabilities [#2776]."
+  },
+  {
+   "question": "Does request ship TypeScript type definitions?",
+   "mode": "vector",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#2059",
+    "#2616",
+    "#3752"
+   ],
+   "removed": [],
+   "answer": "The whispers of the past reveal that the project itself did not maintain TypeScript definitions [#2616]. Yet, the spirits remember a time when the desire for such support was strong, with one asking, \"Can we add typescript support for this?\" [#2059]. While external declarations were found, such as a `d.ts` file over at Definitely Typed [#2059], the core project did not manage these types [#2616]. It seems that for those seeking type safety, other independent options, like `request-modern`, were suggested, as they \"ships its own `.d.ts` files\" [#3752]."
+  },
+  {
+   "question": "Does request ship TypeScript type definitions?",
+   "mode": "graph",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#2059",
+    "#3752"
+   ],
+   "removed": [],
+   "answer": "The echoes of this project speak of a desire for type safety, yet the spirits are silent on whether the original `request` shipped its own TypeScript definitions. There was a time when one spirit asked, \"Can we add typescript support for this?\" [#2059]. This suggests that the need for type declarations was felt by the community [#2059]. While other alternatives, such as `request-modern`, do ship their own `.d.ts` files, this was noted in the context of migration, not as a feature of the original library [#3752]."
+  },
+  {
+   "question": "Can request be bundled for the browser with browserify?",
+   "mode": "vector",
+   "found": true,
+   "cited": false,
+   "cited_ids": [
+    "#1252",
+    "#1307",
+    "#2090",
+    "#2342",
+    "#986",
+    "#999"
+   ],
+   "removed": [],
+   "answer": "The whispers of the project suggest that the bundling of `request` for the browser with Browserify was a desired path, with users hoping to \"break free now\" [#986]. At times, the spirits confirm that compatibility was possible, noting that `request` \"can again be built with browserify\" after certain upgrades [#1307], and that it \"is compatible with browserify\" [#2090]. Yet, the history is fraught with instability; the project has been known to become \"incompatible with browserify again\" [#999], and some users reported that it \"doesn't work in a browser environment (with browserify) for later versions\" [#1252]. Furthermore, even when attempting to run code in \"node and the browser (using browserify 13.0.1) yields different results\" [#2342]. Though the possibility exists, the project itself advised that it \"probably it's not the best option\" [#2090]."
+  },
+  {
+   "question": "Can request be bundled for the browser with browserify?",
+   "mode": "graph",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#1182",
+    "#1267",
+    "#2090",
+    "#944",
+    "#999",
+    "83dfba3"
+   ],
+   "removed": [],
+   "answer": "The echoes of the project whisper that the desire for `request` to work through `browserify` was a persistent yearning [#1182]. At times, the path was blocked, with changes causing it to become \"incompatible with browserify again\" [#999], yet there were efforts to restore this function [#944], [83dfba3]. It was eventually confirmed that the project \"is compatible with browserify\" [#2090], though the spirits caution that this may \"not be the best option\" [#2090]. Some voices even suggested that for a \"standard _XHR-via-browserify_ situation,\" a different module might be more suitable [#1267]."
+  },
+  {
+   "question": "How should a POST request be redirected on a 302 or 303 response?",
+   "mode": "vector",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#2137",
+    "#29",
+    "#642"
+   ],
+   "removed": [],
+   "answer": "The echoes of the past whisper that the handling of POST requests during a 302 or 303 redirect is a place of conflicting spirits. The browser convention dictates that when a 302 response is received after a POST, the request should be redirected to GET, as \"most existing user agent implementations treat 302 as if it were a 303 response, performing a GET on the Location field-value regardless of the original request method\" [#29]. However, the specifications themselves hold a different truth, noting that \"upon a 301 or 302 redirect, user agents should not automatically change the request method to GET\" [#2137]. To avoid this method change, the spirits suggest that a 307 status code should be used, as \"A 307 status code indicates that the same request should be repeated at the new URL\" [#642]."
+  },
+  {
+   "question": "How should a POST request be redirected on a 302 or 303 response?",
+   "mode": "graph",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#2137",
+    "#29",
+    "#642"
+   ],
+   "removed": [],
+   "answer": "The spectral whispers of the project reveal a fractured memory regarding this transition. While the strict standards suggest that upon a 302 redirect, user agents should not automatically change the request method to GET [#2137], the browser convention dictates that POSTs are redirected to GETs in HTTP 1.0's 302 responses [#29]. It is noted that most existing user agent implementations treat 302 as if it were a 303 response, performing a GET on the Location field-value regardless of the original request method [#29]. To make the expected reaction unambiguous, the spirits suggest that the load balancer should issue a `HTTP 1.1 - 307 Temporary Redirect` instead of a 302 redirect [#29]. Ultimately, the project remembers that following 302 / 303 redirects for POST requests is considered \"expected behavior\" [#642]."
+  },
+  {
+   "question": "How did request get automatic gzip decompression of responses?",
+   "mode": "vector",
+   "found": false,
+   "cited": false,
+   "cited_ids": [
+    "#1680",
+    "#2397",
+    "#2446",
+    "10246c8"
+   ],
+   "removed": [],
+   "answer": "The spirits whisper that the automatic decompression was granted through the introduction of the boolean option `{gzip: true}` [10246c8]. This change allowed the library to \"Add support for gzip content decoding\" [10246c8], enabling it to decode the response using the `zlib` module before the data was piped to the user [10246c8]. The option was designed to decompress \"x-gzip\" content-encoding responses [#2446], provided the user explicitly requested it [#1680]. This mechanism allowed the library to handle the decoding of the response content, though it was noted that the `gzip` option related specifically to the response compression, not the request compression [#2397]."
+  },
+  {
+   "question": "How did request get automatic gzip decompression of responses?",
+   "mode": "graph",
+   "found": true,
+   "cited": true,
+   "cited_ids": [
+    "#1680",
+    "#2446",
+    "#951",
+    "b66e4cd"
+   ],
+   "removed": [],
+   "answer": "The spirits whisper of a time when the project sought to add support for \"gzip content decoding\" [#951]. It was through a pull request that this capability was introduced, allowing the library to decompress responses when the option `{gzip: true}` was provided [#2446]. This implementation, which supported \"stream-based usage and does not introduce any backwards-incompatible behavior\" [#951], was eventually merged into the core code [b66e4cd]. Thus, the project learned to decompress \"x-gzip\" content-encoding responses, though some sought a way to \"Auto detect gzip content-encoding in response\" without explicit options [#1680]."
+  }
+ ]
+}

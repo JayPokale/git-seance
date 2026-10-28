@@ -1,0 +1,198 @@
+{
+ "totals": {
+  "vector": {
+   "found": 8,
+   "cited": 0,
+   "removed": 0,
+   "seconds": 0.7519838809967041
+  },
+  "graph": {
+   "found": 9,
+   "cited": 0,
+   "removed": 0,
+   "seconds": 3.4699366092681885
+  }
+ },
+ "rows": [
+  {
+   "question": "Why did request go into maintenance mode and stop accepting new features?",
+   "mode": "vector",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Why did request go into maintenance mode and stop accepting new features?",
+   "mode": "graph",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Is request still actively maintained, and do the maintainers need help?",
+   "mode": "vector",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Is request still actively maintained, and do the maintainers need help?",
+   "mode": "graph",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Why doesn't request return promises, and what should people use for promises?",
+   "mode": "vector",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Why doesn't request return promises, and what should people use for promises?",
+   "mode": "graph",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Will request support HTTP/2?",
+   "mode": "vector",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Will request support HTTP/2?",
+   "mode": "graph",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Why did request drop support for Node 0.8?",
+   "mode": "vector",
+   "found": false,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Why did request drop support for Node 0.8?",
+   "mode": "graph",
+   "found": false,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Why was the tough-cookie dependency upgraded, what was the vulnerability?",
+   "mode": "vector",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Why was the tough-cookie dependency upgraded, what was the vulnerability?",
+   "mode": "graph",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Does request ship TypeScript type definitions?",
+   "mode": "vector",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Does request ship TypeScript type definitions?",
+   "mode": "graph",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Can request be bundled for the browser with browserify?",
+   "mode": "vector",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "Can request be bundled for the browser with browserify?",
+   "mode": "graph",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "How should a POST request be redirected on a 302 or 303 response?",
+   "mode": "vector",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "How should a POST request be redirected on a 302 or 303 response?",
+   "mode": "graph",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "How did request get automatic gzip decompression of responses?",
+   "mode": "vector",
+   "found": false,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  },
+  {
+   "question": "How did request get automatic gzip decompression of responses?",
+   "mode": "graph",
+   "found": true,
+   "cited": false,
+   "cited_ids": [],
+   "removed": [],
+   "answer": null
+  }
+ ]
+}
