@@ -42,7 +42,25 @@ Results are in [the evaluation section](#results).
 
 ## Results
 
-(filled in from `eval/results-*.json`)
+10 questions about `request`, same evidence budget (16 items) for both modes, Gemma 4 E4B on a 6 GB GTX 1660 Ti:
+
+| | answering thread retrieved | answer cites it | invented citations removed |
+|---|--:|--:|--:|
+| vector search only | 8/10 | 7/10 | 0 |
+| graph (lance-graph) + vector | **9/10** | **9/10** | 0 |
+
+About a minute per answer. Caveats: the questions and their answering threads were chosen and checked by hand by
+the author, one label (gzip) was corrected after seeing what retrieval found, and 10 questions is a small set.
+Neither mode finds the Node 0.8 deprecation thread (#1427).
+
+What made the difference:
+
+- **Commits belong to their pull requests.** Most commits never mention their PR; only the merge commit does. The
+  `PART_OF` edge links every commit of a merged branch to its PR, so a commit found by search leads to the PR's
+  discussion. That is how the gzip question (PR #951) is answered.
+- **Graph evidence is added to vector evidence, not swapped for it.** A first version that ranked whole threads and
+  kept only the top four did worse than plain vector search (5/10 retrieved): one-line comments like "same here"
+  score higher than the thread that answers the question, and four threads were too narrow.
 
 ## License
 
